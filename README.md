@@ -54,9 +54,17 @@ claim-trace demo
 
 ## Private body (NDA / pair-screen)
 
-Production **agent operating system** (Trinity / NOUS): tool use, computer use with verification, multi-agent control, dual-harness pre-execution priming (Hermès + Grok), operational learning (skill × hook × tool), sealed ledgers.
+Production **agent operating system** (Trinity / NOUS) — not open-sourced. Public = curated atoms only.
 
-**Not open-sourced.** Public = curated atoms only.  
+| Innovation | Role (measured local) |
+|------------|----------------------|
+| **Dual-harness PREEXEC** | Hermès + Grok pre-execution priming · senior-before-token (matrix → inhibit → contract) |
+| **Pi · prime-agent · jcode** | Multi-agent coding surfaces (incl. Claude Max / ChatGPT Pro class agents) under human seal |
+| **Buzz** | Multi-agent hive · event store · channels · registry · search (`ha-buzz` / relay) |
+| **Herdr** | Terminal workspace for concurrent coding agents (sessions · worktrees · tabs) |
+| **Computer use verified** | Personal Chrome + vision · never blind automation |
+| **claim = trace** | Evaluation law · operational learning · append-only ledgers |
+
 Pair-screen re-measures host scale (CLIs / skills / canons) — never frozen vanity totals.
 
 ---
