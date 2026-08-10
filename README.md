@@ -2,6 +2,14 @@
 
 **Paris · Hybrid / Remote EU** · The scarce skill is not keystrokes — it is **harness + evaluation**.
 
+## Method (how this surface was built)
+
+```text
+private-first organism  →  factor MIT atoms  →  hire pack (claim→path)  →  public seal
+```
+
+Not a dump of a private monorepo. A **versioned public layer** extracted from daily production practice.
+
 ## Public atoms (MIT · tested · no host secrets)
 
 | Repo | Claim it proves |
