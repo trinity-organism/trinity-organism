@@ -1,35 +1,32 @@
 # Jérémy Renoult · Applied AI Systems
 
-**Paris · Hybrid / Remote EU** · Building the layer between foundation models and real work.
+**Paris · Hybrid / Remote EU** · The scarce skill is not keystrokes — it is **harness + evaluation**.
 
-## Public tools (curated · MIT · tested)
+## Public atoms (MIT · tested · no host secrets)
 
-| Repo | What |
-|------|------|
-| **[skill-lint](https://github.com/trinity-organism/skill-lint)** | Lint agent skills: dead descriptions, frontmatter typos, boot-token cost |
-| **[bridle-audit](https://github.com/trinity-organism/bridle-audit)** | Audit harness config: dead hooks, duplicate levers, boot cost |
-| **[nobody](https://github.com/trinity-organism/nobody)** | Filesystem-native semantic layer for agents — meaning measured |
+| Repo | Claim it proves |
+|------|-----------------|
+| **[claim-trace](https://github.com/trinity-organism/claim-trace)** | claim = trace evaluation primitive |
+| **[skill-lint](https://github.com/trinity-organism/skill-lint)** | skill surface hygiene / boot-token cost |
+| **[bridle-audit](https://github.com/trinity-organism/bridle-audit)** | harness config audit (dead hooks, duplicate levers) |
+| **[nobody](https://github.com/trinity-organism/nobody)** | filesystem-native semantic layer for agents |
 
 ```bash
-pip install claude-skill-lint bridle-audit nobody
+pip install -e .  # from each repo, or PyPI where published
+claim-trace demo
 ```
 
-## What I build privately (NDA / pair-screen)
+## Private body (NDA / pair-screen)
 
-Full **agent operating stack**: tool use, computer use with verification, multi-agent plan→execute→verify, claim=trace evaluation, operational learning (skill × hook × tool).  
-Public surface = **curated tools only** — the organism body stays private (no secrets, no host dump).
+Production agent OS: tool use, computer use with verification, multi-agent plan→execute→verify, operational learning (skill × hook × tool).  
+**Not open-sourced** — secrets, identity, and host membrane stay offline.
 
-## Proof culture
+## Culture
 
 - claim = trace  
 - tests before public  
-- secret scanning on showcase repos  
+- public surface = curated atoms, not a monorepo dump  
 
 ## Contact
 
-- GitHub: [@trinity-organism](https://github.com/trinity-organism)  
-- Email: trinity@trinity-organism.com  
-
----
-
-*I don't sell star counts. I ship harnesses that hold when the model forgets.*
+[@trinity-organism](https://github.com/trinity-organism) · trinity@trinity-organism.com
