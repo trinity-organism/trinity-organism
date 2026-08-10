@@ -2,32 +2,28 @@
 
 **Paris · Hybrid / Remote EU** · Building the layer between foundation models and real work.
 
-## What I build
+## Public tools (curated · MIT · tested)
 
-Production **agent harness** infrastructure:
+| Repo | What |
+|------|------|
+| **[skill-lint](https://github.com/trinity-organism/skill-lint)** | Lint agent skills: dead descriptions, frontmatter typos, boot-token cost |
+| **[bridle-audit](https://github.com/trinity-organism/bridle-audit)** | Audit harness config: dead hooks, duplicate levers, boot cost |
+| **[nobody](https://github.com/trinity-organism/nobody)** | Filesystem-native semantic layer for agents — meaning measured |
 
-- **Tool use** & multi-agent plan → execute → verify  
-- **Computer use** with post-action verification (no blind automation)  
-- **claim = trace** evaluation (proof over narration)  
-- **Operational learning** loops: skill × hook × tool under human authority  
+```bash
+pip install claude-skill-lint bridle-audit nobody
+```
 
-Independent principal builder of a full agent operating stack used daily (private organism).  
-This account’s **public surface is curated tools** — not the full body (secrets stay offline / private).
+## What I build privately (NDA / pair-screen)
 
-## Public tools (curated)
+Full **agent operating stack**: tool use, computer use with verification, multi-agent plan→execute→verify, claim=trace evaluation, operational learning (skill × hook × tool).  
+Public surface = **curated tools only** — the organism body stays private (no secrets, no host dump).
 
-> Pins will list scrubbed, zero-secrets tools as they ship.
+## Proof culture
 
-| Tool | Status | One-liner |
-|------|--------|-----------|
-| *skill-lint* | shipping | Lint agent skills: dormant cost, broken frontmatter |
-| *bridle-audit* | shipping | Audit agent config: dead hooks, duplicate levers |
-| *discipline harness proxy* | shipping | OpenAI-compatible harness discipline layer |
-
-## Private body (NDA / pair-screen)
-
-Full agent OS, computer-use pipeline, integrity hooks, multi-runtime routing — demonstrated live under NDA.  
-Proof walkthrough available for serious hiring conversations.
+- claim = trace  
+- tests before public  
+- secret scanning on showcase repos  
 
 ## Contact
 
@@ -36,4 +32,4 @@ Proof walkthrough available for serious hiring conversations.
 
 ---
 
-*I don’t sell star counts. I ship harnesses that hold when the model forgets.*
+*I don't sell star counts. I ship harnesses that hold when the model forgets.*
